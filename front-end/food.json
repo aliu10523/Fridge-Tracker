@@ -1,0 +1,41 @@
+[
+    {
+        "category": "Eggs",
+        "duration": "4 WEEKS"
+    },
+    {
+        "category": "Canned goods",
+        "duration": "2 YRS"
+    },
+    {
+        "category": "Fresh meat",
+        "duration": "3 DAYS"
+    },
+    {
+        "category": "Fresh poultry",
+        "duration": "2 DAYS"
+    },
+    {
+        "category": "Cooked poultry",
+        "duration": "4 DAYS"
+    },
+    {
+        "category": "Seafood",
+        "duration": "3 DAYS"
+    },
+    {
+        "category": "Ice Cream",
+        "duration": "1 MONTH"
+    },{
+        "category": "Seafood",
+        "duration": "3 DAYS"
+    },
+    {
+        "category": "Dairy/Milk",
+        "duration": "3 DAYS"
+    },
+    {
+        "category": "Leftovers",
+        "duration": "2 DAYS"
+    }
+]

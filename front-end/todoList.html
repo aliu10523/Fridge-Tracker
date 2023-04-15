@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="todoList.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="output.css">
+  </head>
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/two.js/0.8.10/two.min.js" integrity="sha512-D9pUm3+gWPkv/Wl6vd45vRLjdkdEKGje7BxOxYG0N6m4UlEUB7RSljBwpmJNAOuf6txLLtlaRchoKfzngr/bQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./itemEvent.js" defer></script>
+    <div class="main-div">
+
+
+        <div class ="offset-div"></div>
+
+        <div class="table-div">
+
+        
+        <div>
+        <h1 class="heading1 text-lg text-center py-4 text-white">Hoo's in the Fridge</h1>
+            <form id="itemLookup" class="form-flex">
+				<input
+					type="text"
+					id="item-name"
+					placeholder="Click Here to Add Food Item"
+					class="w-2/3 rounded-md border-gray-200 py-5 m-5 shadow-sm sm:text-sm text-center"
+				/>
+			
+                <select id="category-name" class="w-2/3 rounded-md border-gray-200 py-5 m-5 shadow-sm sm:text-sm text-center">
+                    <option> ---Choose category---</option>
+                </select>
+				<!-- <input
+					type="text"
+					id="category-name"
+					placeholder="Click Here to Add Category"
+					class="w-2/3 rounded-md border-gray-200 py-2.5 shadow-sm sm:text-sm text-center"
+				/> -->
+				
+			
+				<button type="submit" id ="add-item-btn"
+					class="inline-block rounded-md border border-white bg-blue-500 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-black"
+					>
+					Add Item
+				</button>
+			</form>
+        </div>
+            
+
+
+
+
+<!-- Table Input -->
+<div class="big overflow-x-auto rounded-lg border border-gray-200 w-full">
+    <table id = "fridge-table"
+    class="min-w-full divide-y-2 divide-gray-200 text-sm">
+      <thead>
+        <tr>
+          <th
+          class="whitespace-nowrap px-4 py-2 text-center font-medium text-gray-900 dark:text-white"
+          >
+            Names
+          </th>
+          <th
+            class="whitespace-nowrap px-4 py-2 text-center font-medium text-white w-1/2"
+          >
+            Category
+          </th>
+
+          <th
+            class="whitespace-nowrap px-4 py-2 text-center font-medium text-white w-1/2"
+          >
+            Expiration Date
+          </th>
+        
+        </tr> 
+      </thead>
+  
+      <tbody class="divide-y divide-gray-200 text-white text-center">
+        
+      </tbody>
+    </table>
+  </div>
+  
+
+
+
+        </div>
+
+        
+
+
+
+
+
+        <div class="drawing-div" id="draw-shapes">
+
+        </div>
+
+    </div>
+
+  </body>
+  </html>

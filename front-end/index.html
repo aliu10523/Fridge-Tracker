@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hoo's Hungry</title>
+	<link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black">
+	<!-- Container includes tables and input-->
+	<div class="wrapper">
+		<!-- Input Section including the two inputs and one button -->
+		<div class = "container">
+        <div class="form-group">
+          <input
+            type="text"
+            id="item-name"
+            placeholder="Click Here to Add Food Item"
+            class="w-1/3 rounded-md border-gray-200 py-2.5 p-0 shadow-sm sm:text-sm text-center"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="category-name"
+            placeholder="Click Here to Add Category"
+            class="w-1/3 rounded-md border-gray-200 py-2.5 p-0 shadow-sm sm:text-sm text-center"
+          />
+          
+        </div>
+        <div class="form-group">
+          <button id ="add-item-btn"
+            class="inline-block rounded-md border border-black bg-black px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-black"
+            >
+            Add Item
+          </button>
+        </div>
+      
+		</div>
+		<!-- End of Input Section -->
+
+	</div class="rounded-section">
+	<!-- End of Input and Table Section-->
+
+	<!-- Table Input -->
+		<div class="overflow-x-auto rounded-lg border border-gray-200 w-1/3">
+      <table id = "fridge-table"
+      class="min-w-full divide-y-2 divide-gray-200 text-sm">
+        <thead>
+          <tr>
+            <th
+            class="whitespace-nowrap px-4 py-2 text-center font-medium text-gray-900 dark:text-white"
+            >
+              Names
+            </th>
+            <th
+              class="whitespace-nowrap px-4 py-2 text-center font-medium text-white w-1/2"
+            >
+              Category
+            </th>
+
+            <th
+              class="whitespace-nowrap px-4 py-2 text-center font-medium text-white w-1/2"
+            >
+              Expiration Date
+            </th>
+          
+          </tr> 
+        </thead>
+    
+        <tbody class="divide-y divide-gray-200 text-white text-center">
+          
+        </tbody>
+      </table>
+    </div>
+	
+	<!-- End of Table InpuT-->
+	<script src="./script.js" defer ></script>
+
+	
+</body>
+</html>
